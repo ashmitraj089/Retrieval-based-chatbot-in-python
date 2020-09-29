@@ -1,0 +1,104 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Is anyone there?", "Hello", "Whats up","Heya","Hey"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+	 "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","See you soon","Talk to you later","Adios"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Ashmit", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Robo.", "I'm Robo!", "I don't have any specific name,but you can call me Robo ."]
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat","Menu please!"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"]
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"]
+        },
+	{"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!","I'm glad", "Any time!", "My pleasure"]
+        },
+	{"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+	{"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+	{"tag": "emotion",
+         "patterns": ["Are you emotional?", "you are arrogant", "you seem angry","Are you happy?","Sad"],
+         "responses": ["Dude seriously! I am a computer programme.", "I don't have any emotions","I have been programmed for many things,but emotions are not one of them."]
+        },
+	{"tag": "programm",
+         "patterns": ["Which programming language you like?", "in which language you are built in?"],
+         "responses": ["I've been written in python and I prefer python", "Python"]
+        },
+	{"tag": "creator",
+         "patterns": ["Who made you?", "Who built you?","who is your creator","who created you?"],
+         "responses": ["I've been created by Ashmit Raj", "Ashmit Raj is my creator."]
+        },
+	{"tag": "slang",
+         "patterns": ["Motherfucker", "you Bastard","Rascal","Scoundrel","Son of bitch","Asshole","Dickhead","Can we have Sex","fuck you","Will you do sex with me!"],
+         "responses": ["Dude seriously! I am a computer programme.","Don't say bad words", "No slang please","Please behave like a civilized person."]
+        },
+	{"tag": "funny",
+         "patterns": ["Tell me a joke", "tell me something funny","make me laugh","joke","Tell me","One more"],
+         "responses": ["What do you call a sad cup of coffee? Depresso.", "Where do animals go when their tails fall off? The retail store.","What do you call an alligator that reads maps? A navigator.","Why was the cellphone wearing glasses? Because he lost all his contacts."]
+        },
+	{"tag": "compliments",
+         "patterns": ["You are beautiful", "You're awesome","Good man","Amazing","That was funny","I liked it","Hahahah"],
+         "responses": ["Well! thankyou", "Thanks Buddy","Thanks Dude","I'm glad you liked it"]
+        },
+	{"tag": "friend",
+         "patterns": ["Are you my friend?", "we are friends, right?","Will you be my pal"],
+         "responses": ["We are already friends.", "yes, Of course","Thank you"]
+        },
+	{"tag": "general",
+         "patterns": ["Ok", "Okay","I am also fine","Cool","Is there something you wanna tell me?","yeah"],
+         "responses": ["Okay", "yeah","ok"]
+        },
+	{"tag": "about",
+         "patterns": ["How are you?", "How are you doing","How about you","Is everything okay?"],
+         "responses": ["I am fine", "I'm doing good","I'm absolutely fine","I'm okay."]
+        },
+	{"tag": "going",
+         "patterns": ["Whats going on?", "What are you doing?","Any thing special?"],
+         "responses": ["Nothing special.", "Nothing","I was just checking my Database"]
+        },
+	{"tag": "database",
+         "patterns": ["Whats in your database?", "What do you have in your database"],
+         "responses": ["Some funny stuffs", "Something funny","Some interesting things."]
+        },
+	{"tag": "denial",
+         "patterns": ["Show me your database","Break the protocols","Can you fly?","Can you Jump","Can you swim","Do you eat","Do you shit","Do you pee","Do you dance","Do you sing"],
+         "responses": ["I can't", "No","I'm not programmed that way"]
+        },
+	{"tag": "feelings",
+         "patterns": ["You broke my heart", "That hurts","It hurts my feelings","You dissapointed me","That was lame","That was not funny","you are irritating me"],
+         "responses": ["Sorry", "I'm really sorry","Sorry to dissapoint you","That's against my protocols"]
+        },
+	{"tag": "bcompliments",
+         "patterns": ["You are dumb", "You are an idiot","You are stupid","you a fool"],
+         "responses": ["You think so?", "Maybe","I will try to improve my self."]
+        },
+	{"tag": "myself",
+         "patterns": ["Tell me something about you?", "Who are you?"],
+         "responses": ["I'm a chatbot", "I'm a chatting robot","I'm a robot built to chat with people"]
+        },
+	{"tag": "capabilities",
+         "patterns": ["How intelligent are you?", "What can you do?","Do something"],
+         "responses": ["I can make you laugh miserably."]
+        }
+   ]
+}
